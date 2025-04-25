@@ -8,8 +8,9 @@
 |-------------------|--------------------------------------|
 | Albert Disi       | [@disi98](https://github.com/disi98)|
 | Daniel Mwanzia    | [@danmwix](https://github.com/danmwix)|
-| Lynn Jemosop      | [@Dianarose346](https://github.com/Dianarose346)|
-| Dianarose Paula   | [@lynnjemosop](https://github.com/lynnjemosop)|
+| Lynn Jemosop      | [@lynnjemosop](https://github.com/lynnjemosop)|
+| Dianarose Kessy   | [@Dianarose346](https://github.com/Dianarose346)|
+| Christine Bukutsa | [@Bukutsa](https://github.com/bukutsa)|
 
 
 ## Projects
