@@ -1,4 +1,4 @@
-# PLP WEBDEVELOPMENT GROUP ASSIGNMENT
+# PLP GROUP ASSIGNMENTS
 
 > **Notice:**  
 > All group projects in this repository are organized into separate directories for better structure and clarity.
