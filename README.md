@@ -13,8 +13,17 @@
 | Christine Bukutsa | [@Bukutsa](https://github.com/bukutsa)|
 
 
-## Projects
-    webdevelopment
-        |__README.md
-        |__index.html
-        |__style.css
+## Usage
+- Clone the repository in your prefered local location using:
+    - <code>git clone https://github.com/disi98/plp_group_assignments.git</code>
+
+
+## Directory Structures
+    plp_group_assignments
+      |---WEB_DEVELOPMENT_GROUP
+            |---README.md
+            |---index.html
+            |---style.css
+
+### WEB_DEVELOPMENT_GROUP
+Refer to <code>./WEB_DEVELOPMENT_GROUP/README.md</code> for documentation on web development group project
