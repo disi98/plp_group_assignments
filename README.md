@@ -20,10 +20,10 @@
 
 ## Directory Structures
     plp_group_assignments
-      |---WEB_DEVELOPMENT_GROUP
-            |---README.md
-            |---index.html
-            |---style.css
+        |___WEB_DEVELOPMENT_GROUP
+            |___README.md
+            |___index.html
+            |___style.css
 
 ### WEB_DEVELOPMENT_GROUP
-Refer to <code>./WEB_DEVELOPMENT_GROUP/README.md</code> for documentation on web development group project
+Refer to <code>./WEB_DEVELOPMENT_GROUP/README.md</code> for documentation on **web development** group project
