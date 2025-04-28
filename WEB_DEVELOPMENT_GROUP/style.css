@@ -2,7 +2,7 @@
 body {
   font-size: 20px;
   font-family: 'Georgia', serif;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('flat-lay-workstation-with-copy-space-laptop.jpg');
+  /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('flat-lay-workstation-with-copy-space-laptop.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,6 +11,21 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.main_header {
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
 
 /* ====== Navbar Styles ====== */
 .navbar-header {
