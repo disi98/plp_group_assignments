@@ -13,78 +13,91 @@
 </head>
 <body>
    <!-- @diana -->
+
+
    
-   <!DOCTYPE html>
-<section class="main_header">
-<header class="navbar-header">
-    <nav class="navbar-nav">
-        <div class="logo">UI Portfolio</div>
+     <section class="main-header">
+       <!-- Navbar -->
+       <header class="navbar-header">
+         <nav class="navbar-nav">
+           <div class="logo">UI Portfolio</div>
+   
+           <!-- Mobile Menu Toggle -->
+           <div class="menu-toggle" id="menu-toggle">
+             <i class="fas fa-bars"></i>
+           </div>
+   
+           <!-- Nav links & icons -->
+           <ul class="navbar-list" id="navbar-list">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li class="dropdown">
+               <a href="blog.html">Blog ▼</a>
+               <ul class="dropdown-menu">
+                 <li><a href="#">Latest Posts</a></li>
+                 <li><a href="#">Popular Posts</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a href="pages.html">Pages ▼</a>
+               <ul class="dropdown-menu">
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#">Our Team</a></li>
+               </ul>
+             </li>
+             <li><a href="hire-me.html">Hire Me</a></li>
+           </ul>
+   
+           <div class="navbar-icons">
+             <i class="fas fa-search"></i>
+             <i class="fas fa-moon"></i>
+           </div>
+         </nav>
+       </header>
+   
+       <!-- Hero Section -->
+       <main class="main-section">
+         <div class="top-section">
+           <section class="intro-section">
+             <div class="text-content">
+               <h1 class="title">Hi, I'm Raj Watson</h1>
+               <h2 class="subtitle">Web Developer & Designer</h2>
+               <p class="description">
+                 I love graphic design and photography, and I’ve been building standout portfolios since 2016.
+                 Let me give your business a creative jump-start today.
+               </p>
+               <div class="button-list">
+                 <a href="hire-me.html" class="button">Hire Me</a>
+                 <a href="projects.html" class="button">Projects</a>
+               </div>
+             </div>
+             <div class="image-content">
+               <img
+                 src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+                 alt="Raj Watson Portrait"
+                 class="intro-image"
+               />
+             </div>
+           </section>
+   
+           <!-- Sidebar -->
+           <aside class="side-bar">
+             <ul class="side-bar-list">
+               <li><a href="about.html"><i class="fas fa-arrow-right"></i> Next</a></li>
+               <li><a href="index.html"><i class="fas fa-arrow-left"></i> Back</a></li>
+               <li><a href="peer-group-guide.pdf" download><i class="fas fa-download"></i> Download</a></li>
+               <li><a href="buy.html"><i class="fas fa-shopping-cart"></i> Buy</a></li>
+             </ul>
+           </aside>
+         </div>
+       </main>
+     </section>
+   
 
-        <ul class="navbar-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            
-            <li class="dropdown">
-                <a href="blog.html">Blog ▼</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Latest Posts</a></li>
-                    <li><a href="#">Popular Posts</a></li>
-                </ul>
-            </li>
 
-            <li class="dropdown">
-                <a href="pages.html">Pages ▼</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Team</a></li>
-                </ul>
-            </li>
+   
 
-            <li><a href="hire-me.html">Hire Me</a></li>
-        </ul>
-
-        <div class="navbar-icons">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-moon"></i>
-        </div>
-    </nav>
-</header>
-
-<main class="main-section">
-
-    <div class="top-section">
-        <section class="intro-section">
-            <h1 class="title">Hi, I'm Raj Watson</h1>
-            <h2 class="subtitle">Web Dev</h2>
-            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Young Man" class="intro-image">
-            <p class="description">
-                I love Graphic design and Photography and have been working on my portfolio since 2016.
-                I can give your business a new Creative start right away
-            </p>
-
-            <div class="button-list">
-                <a href="hire-me.html" class="button button-1">Hire Me</a>
-                <a href="projects.html" class="button button-2">Projects</a>
-            </div>
-           
-        </section>
-
-        <!-- Sidebar shifted to right -->
-        <aside class="side-bar">
-            <ul class="side-bar-list">
-                <li><a href="about.html" class="next"><i class="fas fa-arrow-right"></i> Next</a></li>
-                <li><a href="index.html" class="back"><i class="fas fa-arrow-left"></i> Back</a></li>
-                <li><a href="peer-group-guide.pdf" download class="download"><i class="fas fa-download"></i> Download</a></li>
-                <li><a href="buy.html" class="buy"><i class="fas fa-shopping-cart"></i> Buy</a></li>
-            </ul>
-        </aside>
-    </div>
-
-    
-
-</main>
-</section>
 
 
 
@@ -275,9 +288,9 @@
     </div>
 
     <div class="footer-contact">
-      <p><span>📞</span> +12 345 678 900</p>
-      <p><span>📧</span> info@example.com</p>
-      <p><span>📍</span> 208 Avenue street, UK - 62617.</p>
+      <p><span><i class="fas fa-phone"></i></span> +12 345 678 900</p>
+      <p><span><i class="fas fa-envelope"></i></span> info@example.com</p>
+      <p><span><i class="fas fa-location"></i></span> 208 Avenue street, UK - 62617.</p>
     </div>
 
     <div class="footer-socials">
@@ -323,6 +336,13 @@
     } catch (error) {
       alert('There was an error submitting the form. Please try again.');
     }
+  });
+
+ 
+  const menuToggle = document.getElementById('menu-toggle');
+  const navbarList = document.getElementById('navbar-list');
+  menuToggle.addEventListener('click', () => {
+    navbarList.classList.toggle('show');
   });
 </script>
 </html>
